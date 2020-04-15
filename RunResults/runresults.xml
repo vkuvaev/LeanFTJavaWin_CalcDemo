@@ -1,0 +1,490 @@
+<Results>
+    <GeneralInfo>
+        <Name/>
+        <RunStartTime>2020-04-15 07:58:20</RunStartTime>
+        <Timezone>Russia TZ 2 Standard Time</Timezone>
+        <OrchestrationToolName>JUnit</OrchestrationToolName>
+        <OrchestrationToolVersion/>
+        <ReportTitle>UFT Developer Report</ReportTitle>
+    </GeneralInfo>
+    <ReportNode type="Run">
+        <Data>
+            <Name>Run Results</Name>
+            <Description><![CDATA[ ]]></Description>
+            <StartTime>2020-04-15 07:58:20</StartTime>
+            <Result>Passed</Result>
+            <Links/>
+            <Duration><![CDATA[00:00:01.529]]></Duration>
+            <Extension>
+                <Any>
+                    <IconKey>Run</IconKey>
+                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                </Any>
+            </Extension>
+            <Environment>
+                <OSInfo><![CDATA[Microsoft Windows NT 6.2.9200.0]]></OSInfo>
+                <HostName><![CDATA[WIN-T90V2AVON91]]></HostName>
+                <NumberOfCores>4</NumberOfCores>
+                <CpuInfo/>
+                <TotalMemory>4073</TotalMemory>
+                <Locale><![CDATA[en-US]]></Locale>
+                <Timezone>Russia TZ 2 Standard Time</Timezone>
+                <User>Administrator</User>
+            </Environment>
+            <TestedApplication/>
+            <ToolName>UFT Developer</ToolName>
+            <ToolVersion><![CDATA[15.0]]></ToolVersion>
+        </Data>
+        <ReportNode type="Package">
+            <Data>
+                <Name><![CDATA[com.company.testmodule]]></Name>
+                <Description><![CDATA[Version: N/A]]></Description>
+                <StartTime>2020-04-15 07:58:20</StartTime>
+                <Result>Passed</Result>
+                <Links/>
+                <Duration><![CDATA[00:00:01.445]]></Duration>
+                <Extension>
+                    <Any>
+                        <IconKey>Package</IconKey>
+                        <IsHtmlErrorText>true</IsHtmlErrorText>
+                    </Any>
+                </Extension>
+            </Data>
+            <ReportNode type="Class">
+                <Data>
+                    <Name><![CDATA[com.company.testmodule.UFTDeveloperTest]]></Name>
+                    <Description/>
+                    <StartTime>2020-04-15 07:58:20</StartTime>
+                    <Result>Passed</Result>
+                    <Links/>
+                    <Duration><![CDATA[00:00:01.445]]></Duration>
+                    <Extension>
+                        <Any>
+                            <IconKey>Class</IconKey>
+                            <IsHtmlErrorText>true</IsHtmlErrorText>
+                        </Any>
+                    </Extension>
+                </Data>
+                <ReportNode type="Test">
+                    <Data>
+                        <Name>test</Name>
+                        <Description/>
+                        <StartTime>2020-04-15 07:58:20</StartTime>
+                        <Result>Passed</Result>
+                        <Links/>
+                        <Duration><![CDATA[00:00:01.442]]></Duration>
+                        <Extension>
+                            <Any>
+                                <IconKey>Test</IconKey>
+                                <IsHtmlErrorText>true</IsHtmlErrorText>
+                            </Any>
+                        </Extension>
+                    </Data>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Calculator.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-04-15 07:58:20</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.602]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Calculator]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[isChildWindow]]></Name>
+                                                <Value><![CDATA[false]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[isOwnedWindow]]></Name>
+                                                <Value><![CDATA[false]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowTitleRegExp]]></Name>
+                                                <Value><![CDATA[Calculator]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowClassRegExp]]></Name>
+                                                <Value><![CDATA[CalcFrame]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Window</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Calculator]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Button.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-04-15 07:58:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.555]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Calculator]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Button]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[""]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowId]]></Name>
+                                                <Value><![CDATA[81]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Calculator]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Button]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Button.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-04-15 07:58:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.051]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Calculator]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Button]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[""]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowId]]></Name>
+                                                <Value><![CDATA[131]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Calculator]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Button]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Button.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-04-15 07:58:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.037]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Calculator]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Button]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[""]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowId]]></Name>
+                                                <Value><![CDATA[93]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Calculator]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Button]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Button.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-04-15 07:58:21</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.042]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Calculator]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Button]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[""]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowId]]></Name>
+                                                <Value><![CDATA[131]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Calculator]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Button]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                    <ReportNode type="Step">
+                        <Data>
+                            <Name><![CDATA[Button.click]]></Name>
+                            <Description/>
+                            <StartTime>2020-04-15 07:58:22</StartTime>
+                            <Result>Passed</Result>
+                            <Links/>
+                            <Duration><![CDATA[00:00:00.039]]></Duration>
+                            <Extension>
+                                <Any>
+                                    <TestObject>
+                                        <Path>
+                                            <Object>
+                                                <Type>Standard Windows.Window</Type>
+                                                <Name><![CDATA[Calculator]]></Name>
+                                            </Object>
+                                            <Object>
+                                                <Type>Standard Windows.Button</Type>
+                                                <Name><![CDATA[Button]]></Name>
+                                            </Object>
+                                        </Path>
+                                        <Operation>click</Operation>
+                                        <OperationData/>
+                                        <Properties>
+                                            <Property>
+                                                <Name><![CDATA[text]]></Name>
+                                                <Value><![CDATA[""]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[windowId]]></Name>
+                                                <Value><![CDATA[121]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[nativeClass]]></Name>
+                                                <Value><![CDATA[Button]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[indexType]]></Name>
+                                                <Value><![CDATA["location"]]></Value>
+                                            </Property>
+                                        </Properties>
+                                    </TestObject>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>Button</IconKey>
+                                    <CustomUIElements>
+                                        <DescriptionLabel>Data</DescriptionLabel>
+                                    </CustomUIElements>
+                                    <Descriptive>
+                                        <TestObject>
+                                            <Path>
+                                                <Object>
+                                                    <Type>Standard Windows.Window</Type>
+                                                    <Name><![CDATA[Calculator]]></Name>
+                                                    <IconKey>Window</IconKey>
+                                                </Object>
+                                                <Object>
+                                                    <Type>Standard Windows.Button</Type>
+                                                    <Name><![CDATA[Button]]></Name>
+                                                    <IconKey>Button</IconKey>
+                                                </Object>
+                                            </Path>
+                                        </TestObject>
+                                    </Descriptive>
+                                    <HideContextInfo>true</HideContextInfo>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
+                </ReportNode>
+            </ReportNode>
+        </ReportNode>
+    </ReportNode>
+</Results>
